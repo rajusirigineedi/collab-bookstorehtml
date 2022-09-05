@@ -1,1 +1,8 @@
 ## Just a Basic Html page to introduce collaborative building
+
+To add your components into main index.html file. Follow this rule
+
+ -- Go to index.html
+ -- place your newly created html file in the iframe tag ( same as the other iframes declared above )
+ -- don't forget to pass attributes width:100% and height ( your components height )
+ -- You can arrange the entire layout by moving other iframes up / down.
