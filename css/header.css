@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  align-items: center;
+  padding: 20px;
+  gap: 14px;
+  height: 76px;
+}
+
+.title {
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+  transition: all 0.4s;
+  transform-origin: left;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+a:focus {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
