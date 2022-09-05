@@ -11,17 +11,38 @@
             margin: 0px;
             box-sizing: border-box;
         }
+        body{
+            margin: 0px;
+            padding:0px;
+        }
         iframe{
             border: none;
+            width: 100%;
+            height: 100%;
         }
    
     </style>
+       
 </head>
 <body>
     <!-- put your htmls inside an iframe with correct width and height specified as below -->
     <!-- you can change the order of the frames / sections by just moving the iframes up/down ( try to test ) -->
-    <iframe src="./html/header.html"  width="100%" height="76px"></iframe>
-    <iframe src="./html/hero.html" width="100%" height="1133px"></iframe>
-    <iframe src="./html/pricing.html" width="100%" height="500px"></iframe>
+    <iframe class="ifr" src="./html/header.html"  ></iframe>
+    <iframe class="ifr" src="./html/hero.html" ></iframe>
+    <iframe class="ifr" src="./html/pricing.html" ></iframe>
+    <iframe class="ifr" src="./html/contact.html" ></iframe>
+    <iframe class="ifr" src="./html/footer.html" ></iframe>
+
+    <script>
+
+        var iframes = document.getElementsByClassName("ifr");
+        for(let i= 0; i < iframes.length; i++){
+            iframes[i].onload = function(){
+                iframes[i].style.height = iframes[i].contentWindow.document.body.scrollHeight + 'px';
+            }
+        }
+    
+       
+    </script>
 </body>
 </html>

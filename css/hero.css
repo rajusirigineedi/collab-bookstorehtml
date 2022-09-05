@@ -1,6 +1,13 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+
 .fs-8 {
-    font-size: 0.8 rem;
+  font-size: 0.8 rem;
 }
 .size {
-    padding-top: 17rem !important;
+  padding-top: 17rem !important;
 }
