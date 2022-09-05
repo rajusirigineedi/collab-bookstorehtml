@@ -1,0 +1,32 @@
+.container {
+    width: 100% !important;
+    height: 100px !important;
+    padding-top: -3rem !important;
+    padding-bottom: -100rem !important;
+}
+
+.form-control {
+    font-size: 3rem;
+}
+.display-5 {
+    color: orange !important; 
+}
+center {
+    color: orange;
+}
+.h1, h1 {
+    font-size: 5rem;
+}
+.d-grid {
+    background-color: orange !important; 
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-font-size: 2.25rem;
+    --bs-btn-border-radius: 0.5rem;
+}
+.btn.disabled {
+    opacity: 1.65 !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    margin-bottom: 50rem;
+}
